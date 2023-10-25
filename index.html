@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Script</title>
+</head>
+<body>
+  <script>
+        var studentcollection =[{StudentName:"Saravanan",StudentId:1,Marks:94,Rank:3},
+                                { StudentName:"Thanushiya",StudentId:2,Marks:97,Rank:2},
+                                {StudentName:"Thanapriya",StudentId:3,Marks:90,Rank:4},
+                                {StudentName:"Akash",StudentId:4,Marks:99,Rank:1}]
+                              
+                          document.write("<table>")
+                          document.write("<tr><th>StudentName</th><th>StudentId</th><th>Marks</th><th>Rank</tr>")
+                          studentcollection.forEach(a=>{document.write("<tr><td>"+a.StudentName+"</td><td>"+a.StudentId+"</td><td>"
+                            +a.Marks+"</td><td>"+a.Rank+"</td></tr>")});
+                          document.write("</table>")
+    </script>
+  
+</body>
+</html>
